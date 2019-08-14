@@ -29,7 +29,7 @@ class Attain_Cookie_Blocks_Ga extends Mage_GoogleAnalytics_Block_Ga {
 	public function _construct() {
 		parent::_construct();
 		
-		if( Mage::getStoreConfig('web/cookie/eulaw') ) {
+		if( Mage::getStoreConfig('web/eucookie/eulaw') ) {
 			$this->enabled = true;
 			
 			if( Mage::getSingleton('core/cookie')->get('cookies_allowed') ) {

@@ -23,18 +23,22 @@
 ?>
 
 <?
-if( Mage::getStoreConfig('web/cookie/eulaw') ) {
-	?>
+$cookielaw = Mage::getStoreConfig('web/eucookie');
+
+if( $cookielaw['eulaw'] ): ?>
 	<p class="cookie-link"><a href="javascript:void(0);" id="attain-show-cookie">Change Cookie Settings</a></p>
 
 	<?php  $style = Mage::getSingleton('core/cookie')->get('cookies_allowed') ? ' style="display:none;"' : ''; ?>
 	<div id="attain-cookies" <?php echo $style;?>>
-		<p>We would like to place cookies on your computer to help us make this website better. Data collected on this website will not be sold or used for any other purpose but to imrove your experience.</p>
-		<p>Please select an option below, you can change these settings at any time on the bottom of the page.</p>
+		<?php echo $cookielaw['eutext'] ? $cookielaw['eutext'] : "<p>We would like to place cookies on your computer to help us make this website better. Data collected on this website will not be sold or used for any other purpose but to improve your experience.</p><p>Please select an option below, you can change these settings at any time on the bottom of the page.</p>"; ?>
+		
+		<?php if( $cookielaw['eulink'] ): ?>
+				<a href="<?php echo $this->getUrl( $cookielaw['eulink'] );?>" class="text">Read About Our Cookies</a>
+		<?php endIf; ?>
 		<a href="javascript:void(0);" id="cookie-allow">Allow Cookies</a>
 		<a href="javascript:void(0);" id="cookie-refuse">Refuse Cookies</a>
 		<a href="javascript:void(0);" id="cookie-close">Close</a>
 	</div>
 	<?
-}
+endIf;
 ?>

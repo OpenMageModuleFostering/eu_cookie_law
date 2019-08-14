@@ -20,18 +20,19 @@
  * @author     Nathan Chick <nathan@attaindesign.co.uk>
  */
 
+.cookie-link { text-align:right; }
+
 #attain-cookies { background:#fff; border: 1px solid #A2ACB1; border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; bottom: 20px; box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2); display: block; padding: 20px; position: fixed; right: 20px; width: 280px; z-index: 9999; }
-#attain-cookies a { display:block; width:100px; padding:5px; text-align:center; margin-right:10px; float:left; color:#fff; border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; -ms-border-radius:3px; }
-#attain-cookies a#cookie-allow { background:url(../images/allow.png) repeat-x top left #5d9905; border:1px solid #528606; }
-#attain-cookies a#cookie-refuse { background:url(../images/refuse.png) repeat-x top left #99052f; border:1px solid #880329; }
-#attain-cookies a:hover { text-decoration:none; }
-
-#attain-cookies p { color:#333;}
-
 #attain-cookies.hide { display:none; }
 
+#attain-cookies p { color:#333;}
+#attain-cookies a { display:block; width:100px; padding:5px; text-align:center; margin-right:10px; float:left; color:#fff; border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; -ms-border-radius:3px; }
+#attain-cookies a#cookie-allow { background:url(../images/allow.png) repeat-x top left #5d9905; margin-left:20px; border:1px solid #528606; }
+#attain-cookies a#cookie-refuse { background:url(../images/refuse.png) repeat-x top left #99052f; border:1px solid #880329; }
+#attain-cookies a.text { width:100%; color:#333; text-align:center; margin: 0px 0px 10px; font-weight:bold; }
+#attain-cookies a#cookie-close { position:absolute; top:-10px; right:-10px; padding:0px; width:30px; height:30px; overflow:hidden; background:url(../images/close.png) top left; text-indent:-9999px; outline:none; margin:0px; border-radius:0px; }
+
+#attain-cookies a:hover { text-decoration:none; }
 #attain-cookies a#cookie-allow:hover { background:#69ab09; border:1px solid #5d9905; }
 #attain-cookies a#cookie-refuse:hover { background:#b50638; border:1px solid #99052f; }
-
-.cookie-link { text-align:right; }
-#attain-cookies a#cookie-close { position:absolute; top:-10px; right:-10px; padding:0px; width:30px; height:30px; overflow:hidden; background:url(../images/close.png) top left; text-indent:-9999px; outline:none; margin:0px; border-radius:0px; }
+#attain-cookies a.text:hover { text-decoration:underline; }
