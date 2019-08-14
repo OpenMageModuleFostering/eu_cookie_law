@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Eu_Cookie_Law",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL-3.0)",
+    "homepage": "",
+    "description": "Comply to EU Cookie Law (Google Analytics)",
+    "authors": [
+    {
+        "name": "Nathan Chick",
+        "email": "nathan@attaindesign.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

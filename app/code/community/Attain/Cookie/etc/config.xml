@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Attain_Cookie>
+			<version>0.1.0</version>
+		</Attain_Cookie>
+	</modules>
+	<frontend>
+		<routers>
+			<cookie>
+				<use>standard</use>
+				<args>
+					<module>Attain_Cookie</module>
+					<frontName>cookie</frontName>
+				</args>
+			</cookie>
+		</routers>
+		<layout>
+			<updates>
+				<cookie>
+					<file>cookie.xml</file>
+				</cookie>
+			</updates>
+		</layout>
+	</frontend>
+	
+	<global>		
+		<blocks>
+			<googleanalytics>
+				<rewrite>
+					<ga>Attain_Cookie_Blocks_Ga</ga>
+				</rewrite>
+			</googleanalytics>
+		</blocks>
+	</global>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>			
+		<reference name="head">
+			<action method="addItem"><type>skin_css</type><name>attain_cookie/css/style.css</name></action>
+			<action method="addJs"><script>attain_cookie/cookie.js</script></action>
+		</reference>
+		<reference name="before_body_end">
+			<block type="core/template" template="cookie/cookie.phtml" />
+		</reference> 
+    </default>
+</layout> 

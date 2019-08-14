@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Attain_Cookie>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Attain_Cookie>
+	</modules>
+</config> 
