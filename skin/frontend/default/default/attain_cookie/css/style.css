@@ -26,6 +26,8 @@
 #attain-cookies a#cookie-refuse { background:url(../images/refuse.png) repeat-x top left #99052f; border:1px solid #880329; }
 #attain-cookies a:hover { text-decoration:none; }
 
+#attain-cookies p { color:#333;}
+
 #attain-cookies.hide { display:none; }
 
 #attain-cookies a#cookie-allow:hover { background:#69ab09; border:1px solid #5d9905; }

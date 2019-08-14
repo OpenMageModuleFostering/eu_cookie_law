@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Eu_Cookie_Law</name>
-    <version>0.1.3</version>
+    <version>1.0.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
     <channel>community</channel>
@@ -11,8 +11,8 @@
     <notes>First Stable Release</notes>
     <authors><author><name>Nathan Chick</name><user>admin</user><email>nathan@attaindesign.co.uk</email></author></authors>
     <date>2012-05-17</date>
-    <time>15:21:45</time>
-    <contents><target name="magecommunity"><dir name="Attain"><dir name="Cookie"><dir name="Blocks"><file name="Ga.php" hash="ec9aa27e36a31b37e714d1caf212374f"/></dir><dir name="etc"><file name="config.xml" hash="5a76d5eaf91baedcab3aa071e8dc5800"/><file name="system.xml" hash="80ac65657d64b9d426be1e97cd66eccf"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="cookie.xml" hash="54309e58aa4ad94fc0022f8a10d0c674"/></dir><dir name="template"><dir name="cookie"><file name="cookie.phtml" hash="704a5cd381cfbaa9c9c6ca81e50486dc"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="attain_cookie"><dir name="css"><file name="style.css" hash="4c87acf7791f4ebb3015bf2ffdc6f927"/></dir><dir name="images"><file name="allow.png" hash="cdcf1a705762c195b5b0aa66f432b3d7"/><file name="close.png" hash="7adc62cde861aba7316073ac9cc949a7"/><file name="refuse.png" hash="00b089603a5bb4ad98031c1798c6268c"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="attain_cookie"><file name="cookie.js" hash="0f061b1fc6511eabaea1ea11ba4bec1c"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Attain_Cookie.xml" hash="037db23314535ed000903b15e5b48715"/></dir></target></contents>
+    <time>15:52:20</time>
+    <contents><target name="magecommunity"><dir name="Attain"><dir name="Cookie"><dir name="Blocks"><file name="Ga.php" hash="f38ba8512481ad6806c2c89ea348de68"/></dir><dir name="etc"><file name="config.xml" hash="5a76d5eaf91baedcab3aa071e8dc5800"/><file name="system.xml" hash="80ac65657d64b9d426be1e97cd66eccf"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="cookie.xml" hash="54309e58aa4ad94fc0022f8a10d0c674"/></dir><dir name="template"><dir name="cookie"><file name="cookie.phtml" hash="704a5cd381cfbaa9c9c6ca81e50486dc"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="attain_cookie"><dir name="css"><file name="style.css" hash="ba495f64f8a1f35d1321ada3436fcbb5"/></dir><dir name="images"><file name="allow.png" hash="cdcf1a705762c195b5b0aa66f432b3d7"/><file name="close.png" hash="7adc62cde861aba7316073ac9cc949a7"/><file name="refuse.png" hash="00b089603a5bb4ad98031c1798c6268c"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="attain_cookie"><file name="cookie.js" hash="0f061b1fc6511eabaea1ea11ba4bec1c"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Attain_Cookie.xml" hash="037db23314535ed000903b15e5b48715"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

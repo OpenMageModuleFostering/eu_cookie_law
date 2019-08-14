@@ -23,13 +23,14 @@
  
 class Attain_Cookie_Blocks_Ga extends Mage_GoogleAnalytics_Block_Ga {
 	
-	public $cookies = false;
+	protected $cookies = false;
+	protected $enabled = false;
 	
 	public function _construct() {
 		parent::_construct();
 		
 		if( Mage::getStoreConfig('web/cookie/eulaw') ) {
-			$this->setIsEnabled(true);
+			$this->enabled = true;
 			
 			if( Mage::getSingleton('core/cookie')->get('cookies_allowed') ) {
 				$this->cookies = true;
@@ -39,8 +40,9 @@ class Attain_Cookie_Blocks_Ga extends Mage_GoogleAnalytics_Block_Ga {
 	}
 	 
 	protected function _toHtml() {
-		if( ! $this->setIsEnabled() ) {
+		if( ! $this->enabled ) {
 			return parent::_toHtml();
+			
 		} elseif( $this->setIsEnabled() && $this->cookies ) {
 			return parent::_toHtml();
 		}
