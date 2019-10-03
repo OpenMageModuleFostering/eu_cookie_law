@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Eu_Cookie_Law",
+    "name": "openmage-module-fostering\/eu_cookie_law",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL-3.0)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Comply to EU Cookie Law (Google Analytics)",
     "authors": [
